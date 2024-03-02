@@ -1508,6 +1508,7 @@ border-image: linear-gradient(250deg, #4E95ED 0%, #03228F 100%);
 
 .hero h2 {
   font-size: 48px;
+  height: 80px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
