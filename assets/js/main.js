@@ -142,6 +142,30 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: 'smooth'
     }));
   }
+  const emailtop = document.querySelector('.email-top');
+  if (emailtop) {
+    const toggleemailtop = function() {
+      window.scrollY > 100 ? emailtop.classList.add('active') : emailtop.classList.remove('active');
+    }
+    window.addEventListener('load', toggleemailtop);
+    document.addEventListener('scroll', toggleemailtop);
+    emailtop.addEventListener('click', window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    }));
+  }
+  const whatsuptop = document.querySelector('.whatsup-top');
+  if (whatsuptop) {
+    const togglewhatsuptop = function() {
+      window.scrollY > 100 ? whatsuptop.classList.add('active') : whatsuptop.classList.remove('active');
+    }
+    window.addEventListener('load', togglewhatsuptop);
+    document.addEventListener('scroll', togglewhatsuptop);
+    whatsuptop.addEventListener('click', window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    }));
+  }
 
   /**
    * Initiate Pure Counter
