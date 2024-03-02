@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const emailtop = document.querySelector('.email-top');
   if (emailtop) {
     const toggleemailtop = function() {
-      window.scrollY > 130 ? emailtop.classList.add('active') : emailtop.classList.remove('active');
+      window.scrollY > 100 ? emailtop.classList.add('active') : emailtop.classList.remove('active');
     }
     window.addEventListener('load', toggleemailtop);
     document.addEventListener('scroll', toggleemailtop);
