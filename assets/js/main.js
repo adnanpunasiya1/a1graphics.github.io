@@ -145,12 +145,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const emailtop = document.querySelector('.email-top');
   if (emailtop) {
     const toggleemailtop = function() {
-      window.scrollY > 150 ? emailtop.classList.add('active') : emailtop.classList.remove('active');
+      window.scrollY > 130 ? emailtop.classList.add('active') : emailtop.classList.remove('active');
     }
     window.addEventListener('load', toggleemailtop);
     document.addEventListener('scroll', toggleemailtop);
     emailtop.addEventListener('click', window.scrollTo({
-      top: 0,
+      // top: 0,
       behavior: 'smooth'
     }));
   }
