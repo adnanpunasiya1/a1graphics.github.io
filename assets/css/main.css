@@ -1093,7 +1093,7 @@ section {
 .portfolio .portfolio-flters li.filter-active {
   color: var(--color-headfoot);
   background: var(--color-primary);
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
   border-radius: 10px;
 }
 
